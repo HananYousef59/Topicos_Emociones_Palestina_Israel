@@ -1,0 +1,18 @@
+# ❌ Archivos de datos pesados o sensibles
+*.pkl
+*.pt
+*.h5
+*.ckpt
+*.gz
+*.zip
+*.npz
+
+# ❌ CSV de datos brutos (ajusta si hay alguno que sí quieres subir)
+noticias_youtube_limpio.*.csv
+
+# ❌ Archivos temporales y checkpoints
+__pycache__/
+.ipynb_checkpoints/
+*.log
+
+# ✅ PNG y CSV limpios sí se suben (no pongas reglas que los bloqueen)
